@@ -50,7 +50,7 @@ class TestMonteCarlo(unittest.TestCase):
     def test_accuracy(self):
         for i in range(400, 500):
             pi = monte_carlo(i)
-            self.assert(abs(pi - math.pi) < 0.4, msg=f"Estimation with high accuracy")
+            self.assertTrue(abs(pi - math.pi) < 0.4, msg=f"Estimation with high accuracy")
         
 
 
