@@ -24,8 +24,3 @@ def monte_carlo(n):
     pi=(4*(c/tc))
     return pi
 
-n=int(input("Enter the number of iterations: "))
-print(f"The estimate of PI using the wallis formula: {wallis(n)}")
-
-#a=int(input("enter the total number of iterations: "))
-print(f"The estimate of PI using the monte carlo simulation: {monte_carlo(n)}")
